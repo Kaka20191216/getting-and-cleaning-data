@@ -14,7 +14,7 @@ activities <- read.table("UCI HAR Dataset/activity_labels.txt",col.names = c("la
 
 ## mean and st extraction
 featuresExtracted <- grep(".*mean.*|.*std.*", features[,2])
-featuresExtracted_name <- features[features2,2]
+featuresExtracted_name <- features[featuresExtracted,2]
 featuresExtracted_name <- gsub('-mean','Mean', featuresExtracted_name)
 featuresExtracted_name <- gsub('-std','Std', featuresExtracted_name)
 ##featuresExtracted_name <- gsub('[-()]','\\', featuresExtracted_name)
