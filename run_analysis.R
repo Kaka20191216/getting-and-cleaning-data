@@ -40,4 +40,4 @@ melted <- melt(mydata, id = c("Subject","Activity"))
 mydata2 <- dcast(melted, Subject + Activity ~ variable, mean)
 
 ## save new file
-write.csv(mydata2, "wearable2.csv", row.names = FALSE, quote = FALSE)
+write.table(mydata2, "wearable2.txt", row.names = FALSE, quote = FALSE)
