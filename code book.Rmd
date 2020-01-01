@@ -8,7 +8,7 @@ This file summarizes all the variables in "wearable2.txt" that is in  run_analys
 ## Identifiers
 
 * Subject: ID of the test participant.
-* Activity: one of six activities that have been performed by subjects when the measurements were taken
+* Activity: one of six activities that have been performed by subjects when the measurements were taken.
 
 ## Measurements
 
@@ -16,6 +16,85 @@ This file summarizes all the variables in "wearable2.txt" that is in  run_analys
 mydata <- read.table("~/data/wearable2.txt")
 featuresExtracted_name
 ```
+ [1] "tBodyAccMean()-X"              
+ [2] "tBodyAccMean()-Y"              
+ [3] "tBodyAccMean()-Z"              
+ [4] "tBodyAccStd()-X"               
+ [5] "tBodyAccStd()-Y"               
+ [6] "tBodyAccStd()-Z"               
+ [7] "tGravityAccMean()-X"           
+ [8] "tGravityAccMean()-Y"           
+ [9] "tGravityAccMean()-Z"           
+[10] "tGravityAccStd()-X"            
+[11] "tGravityAccStd()-Y"            
+[12] "tGravityAccStd()-Z"            
+[13] "tBodyAccJerkMean()-X"          
+[14] "tBodyAccJerkMean()-Y"          
+[15] "tBodyAccJerkMean()-Z"          
+[16] "tBodyAccJerkStd()-X"           
+[17] "tBodyAccJerkStd()-Y"           
+[18] "tBodyAccJerkStd()-Z"           
+[19] "tBodyGyroMean()-X"             
+[20] "tBodyGyroMean()-Y"             
+[21] "tBodyGyroMean()-Z"             
+[22] "tBodyGyroStd()-X"              
+[23] "tBodyGyroStd()-Y"              
+[24] "tBodyGyroStd()-Z"              
+[25] "tBodyGyroJerkMean()-X"         
+[26] "tBodyGyroJerkMean()-Y"         
+[27] "tBodyGyroJerkMean()-Z"         
+[28] "tBodyGyroJerkStd()-X"          
+[29] "tBodyGyroJerkStd()-Y"          
+[30] "tBodyGyroJerkStd()-Z"          
+[31] "tBodyAccMagMean()"             
+[32] "tBodyAccMagStd()"              
+[33] "tGravityAccMagMean()"          
+[34] "tGravityAccMagStd()"           
+[35] "tBodyAccJerkMagMean()"         
+[36] "tBodyAccJerkMagStd()"          
+[37] "tBodyGyroMagMean()"            
+[38] "tBodyGyroMagStd()"             
+[39] "tBodyGyroJerkMagMean()"        
+[40] "tBodyGyroJerkMagStd()"         
+[41] "fBodyAccMean()-X"              
+[42] "fBodyAccMean()-Y"              
+[43] "fBodyAccMean()-Z"              
+[44] "fBodyAccStd()-X"               
+[45] "fBodyAccStd()-Y"               
+[46] "fBodyAccStd()-Z"               
+[47] "fBodyAccMeanFreq()-X"          
+[48] "fBodyAccMeanFreq()-Y"          
+[49] "fBodyAccMeanFreq()-Z"          
+[50] "fBodyAccJerkMean()-X"          
+[51] "fBodyAccJerkMean()-Y"          
+[52] "fBodyAccJerkMean()-Z"          
+[53] "fBodyAccJerkStd()-X"           
+[54] "fBodyAccJerkStd()-Y"           
+[55] "fBodyAccJerkStd()-Z"           
+[56] "fBodyAccJerkMeanFreq()-X"      
+[57] "fBodyAccJerkMeanFreq()-Y"      
+[58] "fBodyAccJerkMeanFreq()-Z"      
+[59] "fBodyGyroMean()-X"             
+[60] "fBodyGyroMean()-Y"             
+[61] "fBodyGyroMean()-Z"             
+[62] "fBodyGyroStd()-X"              
+[63] "fBodyGyroStd()-Y"              
+[64] "fBodyGyroStd()-Z"              
+[65] "fBodyGyroMeanFreq()-X"         
+[66] "fBodyGyroMeanFreq()-Y"         
+[67] "fBodyGyroMeanFreq()-Z"         
+[68] "fBodyAccMagMean()"             
+[69] "fBodyAccMagStd()"              
+[70] "fBodyAccMagMeanFreq()"         
+[71] "fBodyBodyAccJerkMagMean()"     
+[72] "fBodyBodyAccJerkMagStd()"      
+[73] "fBodyBodyAccJerkMagMeanFreq()" 
+[74] "fBodyBodyGyroMagMean()"        
+[75] "fBodyBodyGyroMagStd()"         
+[76] "fBodyBodyGyroMagMeanFreq()"    
+[77] "fBodyBodyGyroJerkMagMean()"    
+[78] "fBodyBodyGyroJerkMagStd()"     
+[79] "fBodyBodyGyroJerkMagMeanFreq()"
 
 ## Activity Labels
 * 1-Walking
@@ -24,4 +103,3 @@ featuresExtracted_name
 * 4-Sitting
 * 5-Standing
 * 6-Laying
-
